@@ -12,7 +12,7 @@ html{
 body{
     width: 100%;
     height: 100%;
-    background-color: #2A2D30;
+    background: url("./img/background.svg") no-repeat center fixed;
     background-size: cover;
 }
 section{
@@ -481,7 +481,7 @@ input[type="submit"]:hover{
 /*! media queries  */
 @media screen and (max-width: 768px){
     body{
-        background: url("img/sitebg2.jpg") no-repeat center fixed;
+        background: url("./img/background.svg") no-repeat center fixed;
         background-size: cover;
     }
     .landing-text h1{
